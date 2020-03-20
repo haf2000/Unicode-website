@@ -1,0 +1,8 @@
+#organizers{
+    padding: 100px 0px 50px;
+}
+@media only screen and (min-width:764px){
+    #organizers img:nth-child(1){
+        margin-top: -40px;
+    }
+}

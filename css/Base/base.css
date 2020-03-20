@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.section-title1{
+    position: relative;
+    font-family: 'Lato';
+    color: #00A7E7;
+    font-size: 1rem;
+}
+
+.section-title2{
+    position: relative;
+    font-family: 'Poppins';
+    color: #42495B;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+@media only screen and (min-width:992px){
+    .section-title1,.section-title2{
+        padding-left: 100px;
+    }
+    .section-title2{
+        font-size: 2rem;
+    }
+}
