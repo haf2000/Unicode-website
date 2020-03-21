@@ -6,3 +6,27 @@
         margin-top: -40px;
     }
 }
+#organizers img:nth-child(1){
+    animation-name: up-and-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes up-and-down{
+    0%{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    100%{
+        transform: translateY(-5%);
+        -webkit-transform: translateY(-5%);
+        -moz-transform: translateY(-5%);
+        -ms-transform: translateY(-5%);
+        -o-transform: translateY(-5%);
+}
+}
