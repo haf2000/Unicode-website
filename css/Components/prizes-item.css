@@ -1,0 +1,41 @@
+.prizes-container{
+    background-image: url(../../imgs/Groupe\ 1329.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+}
+@media only screen and (max-width:991px){
+    .prizes-container{
+        background-repeat: repeat-y;
+    }
+}
+
+.prize-item{
+    height: 380px;
+    width: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #7E76F91A;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    padding: 30px 30px 0;
+    margin: 50px auto;
+}
+
+.prize-item-img{
+    height: 20%;
+}
+
+.prize-item-title{
+    padding: 15px 0 20px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.prize-item-p{
+    font-size: .8rem;
+    font-family: 'Lato';
+    text-align: center;
+}
