@@ -1,0 +1,14 @@
+#about {
+    padding-top: 15vh;
+}
+
+#about .about-event-description p.event-description-p {
+    color: #7A839E;
+    margin-bottom: 25px;
+}
+
+#about  .about-event-description button {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+

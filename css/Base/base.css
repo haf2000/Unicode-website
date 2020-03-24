@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -11,14 +16,14 @@ body{
 
 .section-title1{
     position: relative;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #00A7E7;
     font-size: 1rem;
 }
 
 .section-title2{
     position: relative;
-    font-family: 'Poppins';
+    font-family: 'Poppins' ,sans-serif;
     color: #42495B;
     font-size: 1.7rem;
     font-weight: 600;
@@ -27,9 +32,21 @@ body{
 
 @media only screen and (min-width:992px){
     .section-title1,.section-title2{
-        padding-left: 100px;
+        /*Moaud Edit: removed the left padding for large screens, looks better*/
+        /*padding-left: 100px;*/
     }
     .section-title2{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
+}
+
+.btn-primary {
+    padding: 10px 50px;
+    font-size: 1rem;
+    background-color: #00A7E7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 0px 6px 1px #7E76F947;
+    -moz-box-shadow: 0 0px 6px 1px #7E76F947;
+    box-shadow: 0 0px 6px 1px #7E76F947;
+    font-family: inherit;
 }
