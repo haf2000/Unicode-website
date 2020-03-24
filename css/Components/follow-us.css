@@ -18,7 +18,7 @@
 .follow-us-bg1{
     position: relative;
     width: 110%;
-    z-index: 2;
+    z-index: 1;
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -28,7 +28,7 @@
 .follow-us-bg2{
     position: relative;
     width: 110%;
-    z-index: 2;
+    z-index: 1;
 }
 
 #map{
