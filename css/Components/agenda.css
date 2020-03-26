@@ -1,0 +1,44 @@
+#agenda h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #42495B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#agenda .agenda-table ul {
+    list-style: none;
+    padding: 0;
+}
+#agenda .agenda-table ul li {
+    max-width: 50%;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #7A839E;
+}
+
+@media screen and (max-width: 1000px) {
+    /*Aligning for medium screens*/
+    #agenda .agenda-table ul li {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    #agenda .agenda-table ul li {
+        margin-left: auto;
+    }
+    
+}
+
+#agenda .agenda-table ul li .time {
+    display: inline-block;
+    width: 2.5em;
+    margin-right: 1em;
+    text-align: right;
+    color: #00A7E7;
+    font-size: 2rem;
+    font-weight: 600;
+}

@@ -106,8 +106,9 @@ header  .btn-burger > img {
     top: -100vw;
     right: -100vw;
     background-color: #00A7E7;
-    width: 200vw;
-    height: 200vw;
+    /*width: 200vw;*/
+    /*height: 200vw;*/
+    width: 0;
     max-width: 1600px;
     max-height: 1600px;
     border-radius: 50%;
