@@ -1,4 +1,4 @@
-var header = document.querySelector("header");
+var header = document.getElementById("header");
 
 var selector = header.getElementsByClassName("selector")[0];
 
