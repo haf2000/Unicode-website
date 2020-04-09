@@ -24,7 +24,7 @@
 .navbar-nav {
     z-index: 2;
     list-style: none;
-    width: auto
+    width: auto;
     height: auto;
     margin:0;
     padding: 0;
@@ -32,10 +32,55 @@
     font-weight: 500;
     color: black;
     position: relative;
+
     
 }
 /*--------------------*/
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
+
+.navbar-brand svg {
+    margin-left: -20px;
+    }
+    .animated-icon1{
+            margin-left: 25px;
+            margin-right: -20px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        &:hover,
+        &:focus {
+           
+            border-bottom-width: 2px ;
+            border-bottom-style: solid;
+           opacity: 1;
+        }
+    }
+    
+    .navbar-nav li.active > a{
+    
+            border-bottom-color: #00A7E7;
+            border-bottom-width: 2px ;
+            border-bottom-style: solid;
+           opacity: 1;
+    }
+    .navbar-nav  li.selector {
+    background-color: transparent;
+    width: 64px;
+    height: 2px;
+    position: absolute;  
+    bottom: 3px;
+    left:0;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+ 
+
+    }
+/*--------------------*/
+@media screen and (min-width: 768px) and (max-width:1023px){
 
 .navbar-brand svg {
     margin-left: -20px;
@@ -74,13 +119,18 @@
     -o-transition: all .5s;
     transition: all .5s;
 }
-      
+  .navbar-nav .nav-item{
+    float: left;
+    height: min-content;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   
     }
 
 
-
 /*--------------------*/
-@media screen and (min-width: 992px) and (max-width: 1079px){
+@media screen and (min-width: 1024px) and (max-width: 1079px){
    
 .navbar-nav  li.selector {
     background-color: #00A7E7;
@@ -125,6 +175,7 @@
    padding-left: 15vw;
 }
 
+
 }
 /*--------------------*/
 @media only screen and (min-width: 1380px) and (max-width: 1920px){
@@ -159,14 +210,14 @@ left:0;
 
 }
 /*--------------------*/
-@media only screen (min-width: 1920px){
+@media only screen (min-width: 1921px){
      
 .navbar-nav  li.selector {
     background-color: #00A7E7;
     width: 64px;
     height: 2px;
     position: absolute;  
-    bottom: 3px; margin-left: 
+    bottom: 3px; 
     left:0;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -183,7 +234,7 @@ left:0;
 .navbar-nav .nav-item{
     float: left;
     height: min-content;
-    margin-right: 1.5vw;
+    margin-right: 0.75vw;
 }
 
 .navbar-nav .nav-item .nav-link {
